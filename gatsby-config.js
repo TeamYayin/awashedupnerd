@@ -7,7 +7,20 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // Of course you can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
+    siteTitle: 'A Washed-Up Nerd' ,
+    siteTitleAlt: 'A Washed-up Nerd',
+    // Can be used for e.g. JSONLD
+    siteHeadline: 'An aggregation of learning resources mined from open internet',
+    // Will be used to generate absolute URLs for og:image etc.
+    siteUrl: `https://awashedupnerd.in`,
+    // Used for SEO
+    siteDescription: `Learning Java Python Javascript | Full Stack Developers | Learning IELTS | IELTS test takers | Hosting with Devanagiri | Indian Poets | Writers | Telugu Fonts`,
+    // Will be set on the <html /> tag
+    siteLanguage: `en`,
+    // Used for og:image and must be placed inside the `static` folder
+    siteImage: `/banner.jpg`,
+    // Twitter Handle
+    author: `@anindianjourney`,
   },
   plugins: [
     {

@@ -1,9 +1,9 @@
 {
   "private": true,
-  "name": "cara",
-  "description": "Playful and Colorful One-Page portfolio featuring Parallax effects and animations",
+  "name": "A-Washed-Up-Nerd",
+  "description": "Colorful One-Page portfolio featuring Parallax effects and animations of a washedup nerd collection of blogs",
   "version": "0.1.3",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "author": "anindianjourney<ask_raven@tuta.io>",
   "license": "MIT",
   "starter-name": "gatsby-starter-portfolio-cara",
   "scripts": {
