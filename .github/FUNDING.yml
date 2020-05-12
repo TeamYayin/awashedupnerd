@@ -1,8 +1,6 @@
 # These are supported funding model platforms
-
+# below github sponsporship includes theme owner who is unrelated to your project
 github: [LekoArts]
-patreon: lekoarts
+ko_fi: teamyayin
 open_collective: # Replace with a single Open Collective username
-ko_fi: lekoarts
-tidelift: # Replace with a single Tidelift platform-name/package-name e.g., npm/babel
 custom: # Replace with a single custom sponsorship URL
