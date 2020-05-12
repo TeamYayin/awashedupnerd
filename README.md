@@ -1,27 +1,11 @@
-<p align="center">
-  <a href="https://cara.lekoarts.de">
-    <img alt="LekoArts" src="https://img.lekoarts.de/gatsby/gatsby-site-illustration.png" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Starter Portfolio: Cara
-</h1>
+# awashedupnerd.in
 
-<p align="center">
-  <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara/blob/master/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="Gatsby Starter Portfolio: Cara is released under the MIT license." />
-  </a>
-  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
-  <a href="https://twitter.com/intent/follow?screen_name=lekoarts_de">
-    <img src="https://img.shields.io/twitter/follow/lekoarts_de.svg?label=Follow%20@lekoarts_de" alt="Follow @lekoarts_de" />
-  </a>
-</p>
+[![A washedup nerd is released under the MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/TeamYayin/awashedupnerd/blob/master/LICENSE)
+![Twitter Follow](https://img.shields.io/twitter/follow/anindianjourney?label=Yayin%20AI&style=)
 
-Playful and Colorful One-Page portfolio featuring Parallax effects and animations. Using the Gatsby Theme [`@lekoarts/gatsby-theme-cara`](https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-cara).
+![Publish to Github Pages](https://github.com/TeamYayin/awashedupnerd/workflows/Gatsby%20Publish%20GH-Pages/badge.svg)
 
-[**Demo Website**](https://cara.lekoarts.de)
-
-Also be sure to checkout other [Free & Open Source Gatsby Themes](https://themes.lekoarts.de)
+Landing Page for the blogs, it features Parallax effects and animations. Made with Gatsby using the theme [`@lekoarts/gatsby-theme-cara`](https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-cara).
 
 ## ✨ Features
 
@@ -31,44 +15,43 @@ Also be sure to checkout other [Free & Open Source Gatsby Themes](https://themes
 
 ## 🚀 Getting Started
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/LekoArts/gatsby-starter-portfolio-cara) [![Edit gatsby-starter-portfolio-cara](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/LekoArts/gatsby-starter-portfolio-cara/tree/master/)
+[![Fork A Washedup Nerd into CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/TeamYayin/awashedupnerd/tree/master/)
 
-1. **Create a Gatsby site.**
+![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
-Use the Gatsby CLI to create a new site, specifying this project
+### Push changes using CodeSandbox
 
-```sh
-gatsby new project-name https://github.com/LekoArts/gatsby-starter-portfolio-cara
-```
+After opening the above CodeSandbox link on the new browser window fork it to your Github profile and make the necessary changes and commit. Then make a pull request by comparing only the `master` branch and your repository. For now, [@Prajwal](https://github.com/py563) will handle all PRs.
 
-2. **Start developing.**
+### Local Developement
 
-Navigate into your new site's directory and start it up.
+> Development tools used were `VSCode`, `WSL`, or `WSL2-Alpine` on `Windows10`. A detailed wiki for tool structure for all blogs would be [here](https://github.com/TeamYayin/awashedupnerd/wiki).
 
-```sh
-cd project-name
-gatsby develop
-```
+**Requires `Node.js` before proceeding any further install it.**
 
-3. **Open the code and start customizing!**
+- Install Gatsby-CLI globally with node package manager `npm install -g gatsby-cli` and to learn more about Gatsby skip to [learning section below](#-learning-gatsby).
+
+- Clone this repository using SSH or HTTPS
+  `sh git clone git@github.com:TeamYayin/awashedupnerd.git`  
+  `sh git clone https://github.com/TeamYayin/awashedupnerd.git`.
+
+- Navigate into your new site's directory `cd awashedupnerd`.
+
+- Install dependencies `npm install`.
+
+- Start developing, run the project using `gatsby develop`.
+
+### Open the code and start customizing
 
 Your site is now running at `http://localhost:8000`!
 
-If you want to learn more about how you can use a Gatsby starter that is configured with a Gatsby theme, you can checkout this [shorter](https://www.gatsbyjs.org/docs/themes/using-a-gatsby-theme/) or [longer](https://www.gatsbyjs.org/tutorial/using-a-theme/) tutorial. The tutorials don't exactly apply to this starter however the concepts are the same.
-
-## 📝 Using and modifying this starter
-
-**Important Note:** Please read the guide [Shadowing in Gatsby Themes](https://www.gatsbyjs.org/docs/themes/shadowing/) to understand how to customize the underlying theme!
-
-This starter creates a new Gatsby site that installs and configures the theme [`@lekoarts/gatsby-theme-cara`](https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-cara).
-
-Have a look at the theme's README and files to see what options are available and how you can shadow the various components including Theme UI. Generally speaking you will want to place your files into `src/@lekoarts/gatsby-theme-cara/` to shadow/override files. The Theme UI config can be configured by shadowing its files in `src/gatsby-plugin-theme-ui/`.
+If you want to learn more about how you can use a Gatsby starter that is configured with a Gatsby theme, you can check out this [shorter](https://www.gatsbyjs.org/docs/themes/using-a-gatsby-theme/) or [longer](https://www.gatsbyjs.org/tutorial/using-a-theme/) tutorial.
 
 ### Changing content
 
-The content of this project is defined in four `.mdx` files inside the theme's `sections` folder. You can override the files `intro.mdx`, `projects.mdx`, `about.mdx` and `contact.mdx`. This starter has overriden the `intro.mdx` file as an example. Place the other files in the same `src/@lekoarts/gatsby-theme-cara/sections/` folder.
+The content of this project is defined in four `.mdx` files inside the theme's `sections` folder. You can override the files `intro.mdx`, `projects.mdx`, `about.mdx` and `contact.mdx` in the `src/@lekoarts/gatsby-theme-cara/sections/` folder.
 
-You have to use the `<ProjectCard />` component inside `projects.mdx` to display the cards. Example:
+To add a new project or blog use the `<ProjectCard />` component inside `projects.mdx` to display the cards. Example:
 
 ```md
 ## Projects
@@ -78,21 +61,17 @@ This project is my entry to Adobe's #ChallengeYourPerspective contest.
 </ProjectCard>
 ```
 
-### Change your `static` folder
+### What goes into the `static` folder
 
-The `static` folder contains the icons, social media images and robots.txt. Don't forget to change these files, too!
-
-## 🤔 Questions or problems?
-
-Please open up an issue on the main repository: [LekoArts/gatsby-themes](https://github.com/LekoArts/gatsby-themes). Thanks!
+The `static` folder contains the icons, social media images, any custom js or CSS files (for better-caching use CDN or npm package for public files) and robots.txt.
 
 ## 🎓 Learning Gatsby
 
-Looking for more guidance? Full documentation for Gatsby lives [on Gatsby's website](https://www.gatsbyjs.org/).
+Looking for more guidance? Full documentation of Gatsby lives [on Gatsby's website](https://www.gatsbyjs.org/).
 
 ### Themes
 
-- To learn more about Gatsby themes specifically, we recommend checking out the [theme docs](https://www.gatsbyjs.org/docs/themes/).
+- To learn more about Gatsby's themes specifically, we recommend checking out the [theme docs](https://www.gatsbyjs.org/docs/themes/).
 
 ### General
 
@@ -100,8 +79,14 @@ Looking for more guidance? Full documentation for Gatsby lives [on Gatsby's webs
 
 - **To dive straight into code samples, head [to Gatsby's documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Reference Guides_ and _Gatsby API_ sections in the sidebar.
 
-## 🌟 Supporting me
+### Starters
 
-Thanks for using this project! I'm always interested in seeing what people do with my projects, so don't hesitate to tag me on [Twitter](https://twitter.com/lekoarts_de) and share the project with me.
+This project uses starter `gatsby-starter-portfolio-cara`, that creates a new Gatsby site that installs and configures the theme [`@lekoarts/gatsby-theme-cara`](https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-cara).
 
-Please star this project, share it on Social Media or consider supporting me on [Patreon](https://www.patreon.com/lekoarts) or [GitHub Sponsor](https://github.com/sponsors/LekoArts)!
+### 🌟 Supporting the author behind this great theme
+
+Please do reach Leko Arts on [Twitter](https://twitter.com/lekoarts_de) and star his [gatsby-themes](https://github.com/LekoArts/gatsby-themes) project, share it on Social Media or consider supporting him on [Patreon](https://www.patreon.com/lekoarts) !
+
+🤔 Questions or problems? with the theme, please open up an issue on the main repository: [LekoArts/gatsby-themes](https://github.com/LekoArts/gatsby-themes) and also do contribute.
+
+Thanks!
