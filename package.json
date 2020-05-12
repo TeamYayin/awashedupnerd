@@ -1,10 +1,14 @@
 {
-  "private": true,
-  "name": "A-Washed-Up-Nerd",
+  "name": "a-washed-up-nerd-website",
   "description": "Colorful One-Page portfolio featuring Parallax effects and animations of a washedup nerd collection of blogs",
-  "version": "0.1",
+  "version": "0.1.4",
+  "private": true,
   "author": "anindianjourney<ask_raven@tuta.io>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TeamYayin/awashedupnerd.git"
+  },
   "starter-name": "gatsby-starter-portfolio-cara",
   "scripts": {
     "build": "gatsby build",
