@@ -15,8 +15,6 @@ jobs:
         uses: actions/checkout@v2
       - name: Gatsby Publish
         uses: enriikke/gatsby-gh-pages-action@v2.1.1
-        env:
-          GOOGLE_ANALYTICS_ID: UA-162845368-1
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           deploy-branch: gh-pages
